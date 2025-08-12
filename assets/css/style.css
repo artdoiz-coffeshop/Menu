@@ -950,6 +950,7 @@ section {
 
 .menu .menu-item {
   margin-top: 50px;
+ padding-left: 0 !important;
 }
 
 .menu .menu-img {
@@ -965,6 +966,8 @@ section {
   display: flex;
   justify-content: space-between;
   position: relative;
+  padding-left: 0 !important;  /* removes left spacing */
+
 }
 
 .menu .menu-content::after {
