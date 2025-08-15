@@ -950,7 +950,6 @@ section {
 
 .menu .menu-item {
   margin-top: 50px;
- padding-left: 0 !important;
 }
 
 .menu .menu-img {
@@ -961,13 +960,12 @@ section {
 }
 
 .menu .menu-content {
-  margin-left: 85px;
+  margin-left: 25px;
   overflow: hidden;
   display: flex;
   justify-content: space-between;
   position: relative;
-  padding-left: 0 !important;  /* removes left spacing */
-
+  
 }
 
 .menu .menu-content::after {
@@ -982,7 +980,7 @@ section {
 }
 
 .menu .menu-content a {
-  padding-right: 10px;
+  padding-right: 1px;
   background: #1a1814;
   position: relative;
   z-index: 3;
